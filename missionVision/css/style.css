@@ -1,0 +1,57 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    margin: 50px;
+}
+
+.heading1 {
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+.heading2 {
+    background-color: lightskyblue;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.mission {
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 19px;
+}
+
+img {
+    height: 300px;
+}
+
+.mission-image {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.vision-image {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+
+.vision {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+}
