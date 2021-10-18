@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  height: 45%;
+  
+}
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.headers{
+  font-size: 35px;
+  font-weight: bold;
+  color: #003E6B;
+  text-align: center;
+
+}
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-blue-text {
+  color: #0A38F5;
+  }
+  .dark-pink-text {
+  color: #AC003A;
+  }
+  .dark-amber-text {
+  color: #ff6f00;
+  }
+  .dark-teal-text {
+  color: #004d40;
+  }
+  
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+  color: #003E6B;
+}
+.cputColor{
+  color: #003E6B;
+}
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #0097D6;
+  line-height: 20px;
+}
+.card .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn button{
+  background: #000000;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+#services{
+  padding-left: 10%;
+}
