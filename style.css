@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 html,body{
-  height: 45%;
+  height: 70%;
   
 }
 .slider{
@@ -54,7 +54,7 @@ html,body{
   object-fit: cover;
 }
 .slider .card .content{
-  padding: 10px 20px;
+  padding: 10px 30px;
 }
 .card .content .title{
   font-size: 25px;
@@ -95,5 +95,5 @@ html,body{
 }
 
 #services{
-  padding-left: 10%;
+  padding-left: 20%;
 }
