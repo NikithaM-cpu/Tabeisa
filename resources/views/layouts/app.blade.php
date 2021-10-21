@@ -27,66 +27,68 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <style>
+    /*///////////// gallery CSS /////////////*/
 
+    .-fx-image-gal {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 960px;
+        justify-content: center;
+    }
 
-/*///////////// gallery CSS /////////////*/
+    .-fx-gal-item {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
 
-.-fx-image-gal {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 960px;
-	justify-content: center;
-}
-.-fx-gal-item {
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-}
+    .-fx-gal-item a {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
 
-.-fx-gal-item a {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	background-color: white;
-}
+    .-fx-gal-image-thumb img {
+        width: 100%;
+        cursor: pointer;
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transform: scale(1.1);
+        transition: all 0.5s ease;
+    }
 
-.-fx-gal-image-thumb img {
-	width: 100%;
-	cursor: pointer;
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	filter: grayscale(100%);
-	transform: scale(1.1);
-	transition: all 0.5s ease;
-}
+    .-fx-gal-image-thumb:hover img {
+        cursor: pointer;
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        filter: grayscale(0%);
+        transform: scale(1.5);
+        transition: all 0.5s ease;
+    }
 
-.-fx-gal-image-thumb:hover img {
-	cursor: pointer;
-	-webkit-filter: grayscale(0%);
-	-moz-filter: grayscale(0%);
-	filter: grayscale(0%);
-	transform: scale(1.5);
-	transition: all 0.5s ease;
-}
-@media (min-width: 420px) {
-	.-fx-image-gal {
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-	.-fx-gal-item {
-		width: 50%;
-	}
-}
-@media (min-width: 768px) {
-	.-fx-gal-item {
-		width: 33.33%;
-	}
-}
+    @media (min-width: 420px) {
+        .-fx-image-gal {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .-fx-gal-item {
+            width: 50%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .-fx-gal-item {
+            width: 33.33%;
+        }
+    }
 
     .dropdown-toggle::after {
         display: none;
@@ -101,8 +103,25 @@
         width: 2rem;
     }
 
+    .mug-redesign {
+        color: #fff;
+        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
+        font-size: 50px;
+        line-height: 80px;
+        height: 95px;
+        width: 95px;
+        margin: 0 auto 0px;
+        border-radius: 10px;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) inset, 0 0 5px rgba(0, 0, 0, 0.1); */
+        /* border: 10px solid #f9f9f9; */
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+
     .setting01 {
-        background: linear-gradient(to right, #1d3c45 0%, #ced7d8 97%);
+        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
     }
 
     .serviceBox {
@@ -112,7 +131,7 @@
 
     .serviceBox .service-icon {
         color: #fff;
-        background: linear-gradient(to right bottom, #ff00cc 35%, #333399 65%);
+        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
         font-size: 45px;
         line-height: 80px;
         height: 95px;
@@ -120,7 +139,7 @@
         margin: 0 auto 25px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) inset, 0 0 5px rgba(0, 0, 0, 0.1);
-        border: 10px solid #f9f9f9;
+        /* border: 10px solid #f9f9f9; */
         background-clip: text;
         -webkit-background-clip: text;
         text-fill-color: transparent;
@@ -144,7 +163,7 @@
     }
 
     .serviceBox.green .service-icon {
-        background: linear-gradient(to right bottom, #38ef7d 35%, #11998e 65%);
+        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
         background-clip: text;
         -webkit-background-clip: text;
         text-fill-color: transparent;
@@ -152,7 +171,7 @@
     }
 
     .serviceBox.blue .service-icon {
-        background: linear-gradient(to right bottom, #91EAE4 35%, #86A8E7 65%);
+        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
         background-clip: text;
         -webkit-background-clip: text;
         text-fill-color: transparent;
@@ -160,7 +179,7 @@
     }
 
     .serviceBox.orange .service-icon {
-        background: linear-gradient(to right bottom, #ffae00 35%, #f83600 65%);
+        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
         background-clip: text;
         -webkit-background-clip: text;
         text-fill-color: transparent;
@@ -265,13 +284,15 @@
     <footer class="bg-light text-center text-lg-start">
         <div class="container p-4">
             <div class="row">
-                <div class="col-lg-6 col-md-12 mb-2 align-self-center">
+                <div class="col-lg-6 col-md-12 mb-2">
                     <h5 class="text-uppercase">
-                        <i class="fas fa-mug-hot col d-flex justify-content-center pb-3 py-3" style="font-size:38px;color:#d2601a;"></i>
+                        <i class="fas fa-mug-hot mug-redesign col d-flex justify-content-center"></i>
+
                     </h5>
 
                     <p>
-                        We are here for your break.
+                    We are here for your break.
+
                     </p>
                 </div>
 

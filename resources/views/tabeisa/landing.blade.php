@@ -19,9 +19,9 @@
 <div class="container">
     <center>
         <div class="py-4">
-            <i class="fas fa-mug-hot col d-flex justify-content-center pb-1 py-2" style="font-size:38px;color:#d2601a;"></i>
+            <i class="fas fa-mug-hot mug-redesign col d-flex justify-content-center" style="font-size:38px;color:#d2601a;"></i>
         </div>
-        <div class="col justify-content-center pb-4">
+        <div class="col justify-content-center">
             <h3 class="text-center" style="font-size:x-large;"><b>Tabeisa for your break</b></h3>
 
             <p class="text-center" style="font-size: medium;">
@@ -100,38 +100,32 @@
 
     </div>
 
-    <div class="-fx-image-gal">
+    <div class="-fx-image-gal py-4">
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                <a href="https://codepen.io/aledebarba" target="_blank">
-                    <img src="https://picsum.photos/id/237/300/300" />
-                </a>
+                    <img src="https://media.gq-magazine.co.uk/photos/5e8352568714920008e10d5b/4:3/w_1440,h_1080,c_limit/20200331-coffee-05.jpg" />
             </div>
         </div><!-- /-fx-gal-item -->
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                <a href="https://codepen.io/aledebarba" target="_blank">
-                    <img src="https://picsum.photos/id/238/300/300" />
-                </a>
+                    <img src="https://london-tv.co.uk/wp-content/uploads/2020/08/coffee-tea-drink.jpg" />
             </div>
         </div><!-- /-fx-gal-item -->
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                <a href="https://codepen.io/aledebarba" target="_blank">
-                    <img src="https://picsum.photos/id/39/300/300" />
-                </a>
+                    <img src="https://byolife.co.zw/wp-content/uploads/2020/09/Hillside-Hideout-Cafe_01.jpg" />
             </div>
         </div><!-- /-fx-gal-item -->
 
-        <div class="-fx-gal-item">
+        <!-- <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
                 <a href="https://codepen.io/aledebarba" target="_blank">
                     <img src="https://picsum.photos/id/240/300/300" />
                 </a>
             </div>
-        </div><!-- /-fx-gal-item -->
+        </div>
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
@@ -139,7 +133,7 @@
                     <img src="https://picsum.photos/id/341/300/300" />
                 </a>
             </div>
-        </div><!-- /-fx-gal-item -->
+        </div>
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
@@ -147,7 +141,8 @@
                     <img src="https://picsum.photos/id/142/300/300" />
                 </a>
             </div>
-        </div><!-- /-fx-gal-item -->
+        </div> -->
+        <!-- /-fx-gal-item -->
     </div><!-- /gallery -->
 
     <div class="row">
